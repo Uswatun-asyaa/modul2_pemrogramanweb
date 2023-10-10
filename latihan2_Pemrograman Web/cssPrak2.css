@@ -1,0 +1,27 @@
+.form-container {
+    background-color: #3498db; /* Warna biru latar belakang */
+    padding: 40px; /* Ruang di sekitar form */
+    border-radius: 10px; /* Pemberian bentuk bulat pada sudut-sudut form */
+    width: 300px; /* Lebar form */
+    margin: 0 auto; /* Pusatkan form di tengah halaman */
+    box-shadow: 0 0 10px rgba(0, 0, 0, 0.2); /* Bayangan pada form */
+}
+
+label {
+    color: white; /* Warna teks label */
+    display: block; /* Setiap label dalam baris terpisah */
+    margin-bottom: 20px; /* Ruang bawah label */
+}
+
+input {
+    width: 100%; /* Lebar input sesuai dengan form container */
+    padding: 10px; /* Ruang di dalam input */
+    margin-bottom: 10px; /* Ruang bawah input */
+    border: none; /* Hilangkan garis border input */
+    border-radius: 5px; /* Pemberian bentuk bulat pada sudut-sudut input */
+}
+
+.error {
+    color: red; /* Warna teks pesan kesalahan */
+    display: none; /* Sembunyikan pesan kesalahan secara default */
+}
